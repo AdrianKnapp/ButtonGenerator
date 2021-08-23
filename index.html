@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Button Generator </title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="button-creator">
+    <form id="controles">
+      <label for="texto">Texto</label>
+      <input type="text" name="text" id="text">
+      <label for="color">Color</label>
+      <input type="color" name="color" id="color">
+      <label for="backgroundColor">Background Color</label>
+      <input type="color" name="backgroundColor" id="backgroundColor">
+      <label for="paddingTopBottom">Padding horizontal</label>
+      <input type="range" name="paddingTopBottom" id="paddingTopBottom" min="0" max="200">
+      <label for="paddingLeftRight">Padding verdical</label>
+      <input type="range" name="paddingLeftRight" id="paddingLeftRight" min="0" max="600">
+      <label for="border">Border</label>
+      <input type="text" name="border" id="border" placeholder="2px solid #000">
+      <label for="borderRadius">Border Radius</label>
+      <input type="range" name="borderRadius" id="borderRadius" min="0" max="20">
+      <label for="fontFamily"> Font Family</label>
+      <select name="fontFamily" id="fontFamily">
+        <option value="Arial">Arial</option>
+        <option value="Courier New"> Courier New </option>
+        <option value="Georgia"> Georgia </option>
+      </select>
+      <label for="fontSize">Font Size</label>
+      <input type="number" name="fontSize" id="fontSize">
+    </form>
+    <section class="resultado">
+      <button class="btn"> Botão </button>
+      <pre>
+        <code class="css"></code>
+      </pre>
+    </section>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <form name="contato" id="contato">
+    <label for="nome"> Nome </label>
+    <input type="text" name="nome" id="nome">
+    <label for="email"> Email </label>
+    <input type="email" name="email" id="email">
+    <label for="mensagem"> Email </label>
+    <textarea name="mensagem" id="mensagem"></textarea>
+    <input type="submit" name="submit" id="btn-submit">
+  </form> -->
+  <script src="src/js/script.js"></script>
+</body>
+</html>
