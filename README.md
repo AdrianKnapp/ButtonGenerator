@@ -1,2 +1,2 @@
 ### Try yourself 
-https://adrianknapp.github.io/ButtonGenerator/
+https://adrianknapp.github.io/button-generator/
